@@ -39,15 +39,11 @@ body{
     
     h2{
         text-align: center;
+        font-size: 35px;
     }
     
     .imagembeneficios{
-
-     
-        border-color: chartreuse;
         width: 50%;
-       
-
     }
 
     ul{
