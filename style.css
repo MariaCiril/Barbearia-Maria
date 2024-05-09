@@ -42,18 +42,18 @@ body{
     }
     
     .imagembeneficios{
-<<<<<<< HEAD
-        width:20%;
+
+     
         border-color: chartreuse;
-=======
         width: 50%;
        
->>>>>>> 8dbc5cbed18796394807e67c8bd302126d2832d3
+
     }
 
     ul{
         display: inline-block;
-        vertical-align: top;
+        vertical-align: top; 
+        width:20%;
         margin-right: 15%;
         border:3px solid black ;
     }
