@@ -44,3 +44,10 @@ body{
     .imagembeneficios{
         width: 50%;
     }
+
+    ul{
+        display: inline-block;
+        vertical-align: top;
+        margin-right: 15%;
+        border:3px solid black ;
+    }
