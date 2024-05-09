@@ -43,6 +43,7 @@ body{
     
     .imagembeneficios{
         width: 50%;
+        border-color: chartreuse;
     }
 
     ul{
