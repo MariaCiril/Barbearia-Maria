@@ -7,7 +7,6 @@ header {
     position: relative;
     width: 940px;
     margin: 0 auto;
-
 }
 
 nav {
@@ -44,7 +43,7 @@ nav a:hover {
     display: inline-flex;
     text-align: center;
     width: 30%;
-    vertical-aling: top;
+    vertical-align: top;
     margin: 0 1.5%;
     padding: 30px 20px;
     box-sizing: border-box;
