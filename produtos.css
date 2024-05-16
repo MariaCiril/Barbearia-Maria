@@ -66,15 +66,16 @@ nav a:hover {
     font-size: 30px;
     font-weight: bold;
  }            
- .produto-descricao {
+ .produtos-descricao {
                     font-size: 18px;
  }
  
- .produto-preco {
+ .produtos-preco {
     font-size: 22px;
     font-weight: bold;
     margin-top: 10px;
  }
+ 
  footer {
     text-align: center;
     background: url("bg.jpg");
