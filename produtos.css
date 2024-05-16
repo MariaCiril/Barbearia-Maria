@@ -1,5 +1,5 @@
 header {
-    background-color: black;
+    background-color: rgb(236, 63, 10);
     padding: 20px 0;
 }
 
@@ -23,7 +23,7 @@ nav li {
 
 nav a {
     text-transform: uppercase;
-    color: #000000;
+    color: #10e7f7;
     font-weight: bold;
     font-size: 22px;
     text-decoration: none;
@@ -48,12 +48,12 @@ produtos li {
     margin: 0 1.5%;
     padding: 30px 20px;
     box-sizing: border-box;
-    border: 2px solid #000000;
+    border: 2px solid #a4f310;
     border-radius: 10px;
 }
 
 .produtos li:hover {
-    border-color: #C78C19;
+    border-color: #9790ee;
  }
  .produtos li:active {
     border-color: #088C19;    
