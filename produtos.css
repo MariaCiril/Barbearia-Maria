@@ -40,7 +40,7 @@ nav a:hover {
     padding: 50px 0;
 }
 
-produtos li {
+.produtos li {
     display: inline-flex;
     text-align: center;
     width: 30%;
