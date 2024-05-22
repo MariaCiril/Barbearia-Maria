@@ -32,7 +32,39 @@
             </li>
             <li>
                 <h2> Barba </h2>
-                <img src="barba.jpg" alt="barba">
+                <img src="barba.jpg" alt="barba">.conteudo-beneficios {
+                    width: 640px;
+                    margin: 0 auto;
+                }
+                
+                .lista-beneficios {
+                    width: 50%;
+                    display: inline-block;
+                    vertical-align: top;
+                }
+                
+                .itens {
+                    line-height: 1.5;
+                }
+                
+                .itens:first-child {
+                    font-weight: bold;
+                }
+                
+                .itens:before {
+                    content: "🟊";
+                }
+                
+                .imagembeneficios {
+                    width: 40%;
+                    opacity: 1;
+                    transition: 400ms;
+                    box-shadow: 10px 10px 10px 0 #000000;
+                }
+                
+                .imagembeneficios:hover {
+                    opacity: 0.3;
+                }
                 <p class="produtos-descricao"> Barba desenhada </p>
                 <p  class="produtos-preco"> R$18,00 </p>
             </li>
