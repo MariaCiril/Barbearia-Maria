@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Contato </title>
+</head>
+<body>
+
+    <!--colar o header-->
+
+<main>
+    <form>
+    <label for="nomesobrenome">Nome e Sobrenome</label>
+    <input type="text" id="nomesobrenome" class="input-padrao" required>
+    
+    <label for="email"><E-mail></label>
+        <input type="email" class="input-padrao" required placeholder="email@dominio.com">
+    
+        <label for="telefone">telefone</label>
+        <input type="tel" id="telefone"class="input-padrao" required placeholder="(xx) x xxxx-xxxx">
+    
+        <label for="mensagem">Mensagem</label>
+        <textarea name="" id="mensagem" cols="70" rows="10"></textarea>
+        <fieldset>
+            <legend>como prefere nosso contato</legend>
+           
+            <label for="radio-email"></label>
+            <input type="radio" name="contato" value="email" id="radio-email"> E-mail
+    
+            <label for="radio-email"></label>
+            <input type="radio" name="contato" value="telefone" id="radio-telefone"> Telefone
+           
+    
+            <label for="radio-email"></label>
+            <input type="radio" name="contato" value="watsapp" id="radio-watsapp"> Watsapp
+    
+        </fieldset>
+    
+        <fieldset>
+            <legend>Qual horário vocẽ prefere</legend>
+            <select>
+                <option> Manhã</option>
+                <option>Tarde</option>
+                <option>Noite</option>
+            </select>
+        </fieldset>
+        <label class="checkbox">
+            <input type="checkbox" checked> Gostaria de receber as novidades por email
+        </label>
+        <input type="submit" value="Enviar Formulária" class="enviar">
+    </form>
+    
+    </main>
+    
+    
+    </body>
+    </html>
