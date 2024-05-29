@@ -36,7 +36,7 @@ select{
 .enviar {
     width:40%;
     padding: 15px 0;
-    background: rgb(183, 17, 192);
+    background: rgba(99, 14, 209, 0.582);
     color: white;
     font-weight: bold;
     font-size: 18px;
