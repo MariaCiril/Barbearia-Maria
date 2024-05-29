@@ -1,0 +1,51 @@
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+form {
+    margin: 40px 0;
+    line-height: 1.5;
+}
+
+form label, form legend, p, select, option {
+    display:block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+fieldset{
+    margin: 20px;
+}
+
+select{
+    width: 150px;
+}
+
+.input-padrao {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.checkbox {
+    margin: 20px 0;
+}
+
+.enviar {
+    width:40%;
+    padding: 15px 0;
+    background: rgb(183, 17, 192);
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.enviar:hover {
+    background: rgb(95, 1, 81);
+    transform: scale(1.2);
