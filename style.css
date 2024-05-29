@@ -1,90 +1,89 @@
-
-
-body{
+body {
     background-color: rgb(255, 231, 231);
     color: rgb(175, 59, 150);
     text-align: center;
-    }
-    
-    
-    
-    
-    
-    h1{
-        text-align: center;
-    background-color: rgba(99, 14, 209, 0.582);
-    border: 10px solid rgb(255, 173, 251) ;
-    
-    }
-    
-    
-    em strong {
-    
-        color: rgb(255, 89, 205);
-    }
-    
-    #banner {
-    
-        width: 70%;
-    }
-    
-    .itens{
-        font-style: italic;
-    text-align: left;
-    }
-    
-    .beneficios{
-        background-color: rgba(218, 113, 113, 0.911);
-    padding: 20px;}
-    
-    h2{
-        text-align: center;
-        font-size: 35px;
-    }
-    
-    .imagembeneficios{
-        width: 30%;
-    }
+}
 
-    ul{
-        display: inline-block;
-        vertical-align: top; 
-        width:20%;
-        margin-right: 15%;
-        margin-top: 150px;
-        line-height: 1.5;
-        font-size: 18px;
-    }
-    .conteudo-beneficios {
-        width: 640px;
-        margin: 0 auto;
-    }
-    
-    .lista-beneficios {
-        width: 50%;
-        display: inline-block;
-        vertical-align: top;
-    }
-    
-    .itens {
-        line-height: 1.5;
-    }
-    
-    .itens:first-child {
-        font-weight: bold;
-    }
-    
-    .itens:before {
-        content: "🟊";
-    }
-    
-    .imagembeneficios {
-        width: 40%;
-        opacity: 1;
-        transition: 400ms;
-        box-shadow: 10px 10px 10px 0 #000000;
-    }
-    
-    .imagembeneficios:hover {
-        opacity: 0.3;
-    }
+
+
+
+h1 {
+    text-align: center;
+    background-color: rgba(99, 14, 209, 0.582);
+    border: 10px solid rgb(255, 173, 251);
+
+}
+
+
+em strong {
+
+    color: rgb(255, 89, 205);
+}
+
+#banner {
+
+    width: 70%;
+}
+
+.itens {
+    font-style: italic;
+    text-align: left;
+}
+
+.beneficios {
+    background-color: rgba(218, 113, 113, 0.911);
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 35px;
+}
+
+.imagembeneficios {
+    width: 30%;
+}
+
+ul {
+    display:flex;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+    margin-top: 150px;
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+.conteudo-beneficios {
+    width: 640px;
+    margin: 0 auto;
+}
+
+.lista-beneficios {
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.itens {
+    line-height: 1.5;
+}
+
+.itens:first-child {
+    font-weight: bold;
+}
+
+.itens:before {
+    content: "🟊";
+}
+
+.imagembeneficios {
+    width: 40%;
+    opacity: 1;
+    transition: 400ms;
+    box-shadow: 10px 10px 10px 0 #000000;
+}
+
+.imagembeneficios:hover {
+    opacity: 0.3;
+}
